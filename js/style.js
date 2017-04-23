@@ -1,6 +1,7 @@
 function byId(id){
 	return typeof(id)==="string"?document.getElementById(id):id;
 }
+
 var index=0,timer=null,pics=byId("banner").getElementsByTagName("div");
 var dots=byId("dots").getElementsByTagName("span");
 var len=pics.length;
